@@ -1,0 +1,32 @@
+{
+  "name": "fifa2",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "^2.5.6",
+    "express": "~4.14.1",
+    "jade": "~1.11.0",
+    "method-override": "^2.3.8",
+    "passport": "^0.3.2",
+   "passport-authic": "0.0.3",
+   "passport-http": "^0.3.0",
+   "passport-local": "^1.0.0",
+   "express": "~4.14.1",
+   "express-messages": "^1.0.1",
+   "express-session": "^1.15.1",
+  "express-validator": "^3.1.2",
+   "serve-favicon": "~2.3.2",
+    "mongoose": "^4.9.6",
+    "morgan": "~1.7.0",
+    "multer": "^1.3.0",
+    "serve-favicon": "~2.3.2",
+    "connect-flash":"*"
+  }
+}

@@ -1,0 +1,208 @@
+doctype html
+html
+  head
+    title football stats
+    |     
+    meta(charset='UTF-8')
+    |     
+    meta(name='description', content='')
+    |     
+    meta(name='keywords', content='')
+    |     
+    link(rel='stylesheet', href='/stylesheets/materialize.css')
+    |     
+    link(rel='stylesheet', href='/stylesheets/materialize.min.css')
+    |     
+    link(href='https://fonts.googleapis.com/css?family=Overlock', rel='stylesheet')
+    |     
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    |     
+    link(rel='stylesheet', href='/stylesheets/app.css')
+  body
+    section.landing.row
+      .navbar-fixed
+        ul#dropdown1.dropdown-content
+          li
+            a(href='#!') profile
+          |                 
+          li
+            a(href='#!') sign out
+          |                 
+          li.divider
+        |                   
+        nav
+          .nav-wrapper
+            .row
+              .col.s2
+                a.brand-logo.left(href='#') Logo
+              |                  
+              .col.s6
+              |                  
+              .col.s4
+                ul#nav-mobile.right.hide-on-med-and-down
+                  li
+                    a(href='index.html') Home
+                  |                      
+                  li
+                    a.dropdown-button(href='#!', data-activates='dropdown1')
+                      | My Account
+                      i.material-icons.right arrow_drop_down
+      |         
+      #video_overlays
+        .row.results
+          .col.s12.l3.m6.playerbio
+            img(src='img/player.jpg', alt='', height='400', width='200')
+          |                 
+          .col.s12.l3.m6.playerdata
+            h4 Skills
+            |                     
+            .row.playerdatalist
+              .col.s6.l6.m6
+                ul
+                  li Ball control
+                  |                                 
+                  li Acceleration
+                  |                                 
+                  li Agility
+                  |                                 
+                  li Balance
+                  |                                 
+                  li Jumping
+                  |                                 
+                  li Reaction
+                  |                                 
+                  li Strength
+                  |                                 
+                  li Sprint Speed
+              |                         
+              .col.s6.l6.m6
+                ul
+                  li  90% 
+                  |                                 
+                  li 80%
+                  |                                 
+                  li 70%
+                  |                                 
+                  li 50%
+                  |                                 
+                  li 50%
+                  |                                 
+                  li  70%
+                  |                                 
+                  li  90% 
+                  |                                 
+                  li  90% 
+          |                 
+          .col.s12.l3.m6.playerdata
+            h4 Player Data
+            |                     
+            .row.playerdatalist
+              .col.s6.l6.m6
+                ul
+                  li Name
+                  |                                 
+                  li Age
+                  |                                 
+                  li Height
+                  |                                 
+                  li Weight
+                  |                                 
+                  li Weakfoot
+                  |                                 
+                  li Pref foot
+              |                         
+              .col.s6.l6.m6
+                ul
+                  li Lionel Messi
+                  |                                 
+                  li 39yrs
+                  |                                 
+                  li 5&quot;6
+                  |                                 
+                  li 70lbs
+                  |                                 
+                  li long
+                  |                                 
+                  li short
+          |                 
+          .col.s12.l3.m6.playerdata
+            h4 Player Record
+            |                     
+            .row.playerdatalist
+              .col.s6.l6.m6
+                ul
+                  li Goals scored
+                  |                                 
+                  li Yellow card
+                  |                                 
+                  li Red Card
+                  |                                 
+                  li Assist
+              |                         
+              .col.s6.l6.m6
+                ul
+                  li 40
+                  |                                 
+                  li 30
+                  |                                 
+                  li 10
+                  |                                 
+                  li 100
+    |     
+    section.aboutplayer
+      .row
+        .col.s6.l6.m6.aboutplayertext
+          h4 History
+          |                 
+          p
+            | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam, doloribus, blanditiis? Vitae distinctio nihil perspiciatis quis voluptatum blanditiis repellat aliquid sunt magnam. Eius, officia neque facilis quasi, quia ab esse! Lorem ipsum dolor sit amet, consectetur adipisicing elit. At saepe soluta ex eaque repudiandae quod doloremque, omnis consectetur tenetur, modi officia maxime, nostrum itaque voluptate dolorum praesentium, facere. Dicta, repellat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, laboriosam! Nesciunt laboriosam aut assumenda reprehenderit accusantium, reiciendis sequi cumque, quas. Ab asperiores atque ipsa ad! Quos porro, delectus cum dolorem.
+        |             
+        .col.s6.l6.m6.aboutplayervideo
+          .video-container
+            iframe(width='853', height='480', src='/img/Keeper.mov', frameborder='0', allowfullscreen='')
+    |     
+    footer.page-footer
+      div
+        .row
+          .col.l4.m4.s12
+            h5.white-text COMPANY LOGO
+            |             
+            p.grey-text.text-lighten-4  unt in culpa qui officia deserunt mollit anim id est laborum quam possimus!
+          |           
+          .col.l4.m4.s12
+            h5.white-text Links
+            |               
+            ul
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 1
+              |                 
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 2
+              |                 
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 3
+              |                 
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 4
+          |           
+          .col.l4.m4.s12
+            h5.white-text Links
+            |             
+            ul
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 1
+              |               
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 2
+              |               
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 3
+              |               
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 4
+      |       
+      .footer-copyright
+        .row.center
+          | &copy; 2017 Copyright
+    |     
+    script(src='js/index.js')

@@ -1,0 +1,131 @@
+doctype html
+html
+  head
+    title football stats 
+    meta(charset='UTF-8')
+    meta(name='description', content='')
+    meta(name='keywords', content='')
+    link(rel='stylesheet', href='/stylesheets/materialize.css')
+    link(rel='stylesheet', href='/stylesheets/materialize.min.css')
+    link(href='https://fonts.googleapis.com/css?family=Overlock', rel='stylesheet')
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    link(rel='stylesheet', href='/stylesheets/app.css')
+  body
+    nav
+      .nav-wrapper
+        .row
+          .col.s2
+            a.brand-logo.left(href='#') Logo
+          .col.s6
+          .col.s4
+            ul#nav-mobile.right.hide-on-med-and-down
+              li
+                a(href='about.html') About
+              li
+                a(href='contact.html') Contact Us
+              li
+                a(href='login.html') Login
+    section.landing.row
+      #video_overlays
+        .landingtext.col.s12.m8.offset-m2.l8.offset-l2
+          h3
+            | Fifa 2017 Stats! 
+            br
+            | Welcome to the place to know about your player
+          .row
+            form
+              input.center(type='text', placeholder='Enter name of player', required='')
+              a(href='/users/result')
+                input.btn.waves-effect(type='button', value='Search', style='border-radius:25px; width: 50%; margin:0 0%;')
+    section.news
+      .center.s12.l12.m12
+        h3(style='color:black') The Latest from our blog
+      .row.news
+        .col.s12
+          .col.s12.l4.m4
+            figure.snip1518
+              .image
+                img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample101.jpg', alt='sample101')
+              figcaption
+                h5 League
+                h3 Everything has beauty, but not everyone sees it
+                footer
+                  .date October 30, 2015
+                  .icons
+                    .views
+                      i.ion-eye
+                      | 2,907
+                    .love
+                      i.ion-heart
+                      | 623
+              a(href='#')
+          .col.s12.l4.m4
+            figure.snip1518.hover
+              .image
+                img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample99.jpg', alt='sample99')
+              figcaption
+                h5 Primera
+                h3 A friend walks in when everyone else walks out 
+                footer
+                  .date November 7, 2016
+                  .icons
+                    .views
+                      i.ion-eye
+                      | 1,870
+                    .love
+                      i.ion-heart
+                      | 973
+              a(href='#')
+          .col.s12.l4.m4
+            figure.snip1518
+              .image
+                img(src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sample107.jpg', alt='sample107')
+              figcaption
+                h5 Championship
+                h3 He who dares to teach must never cease to learn
+                footer
+                  .date January 21, 2016
+                  .icons
+                    .views
+                      i.ion-eye
+                      | 928
+                    .love
+                      i.ion-heart
+                      | 198
+              a(href='#')
+    footer.page-footer
+      div
+        .row
+          .col.l4.m4.s12
+            h5.white-text COMPANY LOGO
+            p.grey-text.text-lighten-4  unt in culpa qui officia deserunt mollit anim id est laborum quam possimus!
+          .col.l4.m4.s12
+            h5.white-text Links
+            ul
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 1
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 2
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 3
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 4
+          .col.l4.m4.s12
+            h5.white-text Links
+            ul
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 1
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 2
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 3
+              li
+                a.grey-text.text-lighten-3(href='#!') Link 4
+      .footer-copyright
+        .row.center
+          | © 2017 Copyright
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js ')
+    script(src='https://code.jquery.com/jquery-2.2.4.min.js')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.1/jquery.flexslider.min.js')
+    script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+    script(src='js/index.js ')

@@ -1,0 +1,93 @@
+doctype html
+html
+  head
+    title football stats 
+    |   
+    meta(charset='UTF-8')
+    |   
+    meta(name='description', content='')
+    |   
+    meta(name='keywords', content='')
+    |   
+    link(rel='stylesheet', href='/stylesheets/materialize.css')
+    |   
+    link(rel='stylesheet', href='/stylesheets/materialize.min.css')
+    |   
+    link(href='https://fonts.googleapis.com/css?family=Overlock', rel='stylesheet')
+    |   
+    link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+    |   
+    link(rel='stylesheet', href='/stylesheets/app.css')
+  body
+    .row.login
+      .col.s12.l4.offset-l4.m4.offset-m4
+        .pen-title
+          h1 Log In
+          span to view your favorite team player
+        |   
+        .container
+          .card
+          |     
+          .card
+            h1.title Login
+            |       
+            form
+              .input-container
+                input(name = "username", type='#{type}', id='#{label}', required='required')
+                |           
+                label(for='#{label}') Username
+                |           
+                .bar
+              |         
+              .input-container
+                input(name= "password", type='#{password}', id='#{label}', required='required')
+                |           
+                label(for='#{label}') Password
+                |           
+                .bar
+              |         
+              .button-container
+                button
+                  a(href='/index/search')
+                  span Go
+              |         
+              .footer
+                a(href='#') Forgot your password?
+          |     
+          .card.alt
+            .toggle
+            |       
+            h1.title
+              | Register
+              .close
+            |       
+            form
+              .input-container
+                input(name = "username", type='#{type}', id='#{label}', required='required')
+                |           
+                label(for='#{label}') Username
+                |           
+                .bar
+              |         
+              .input-container
+                input( name= "password", type='#{type}', id='#{label}', required='required')
+                |           
+                label(for='#{label}') Password
+                |           
+                .bar
+              |         
+              .input-container
+                input(name = "password2", type='#{type}', id='#{label}', required='required')
+                |           
+                label(for='#{label}') Repeat Password
+                |           
+                .bar
+              |         
+              .button-container
+                button
+                  span Next
+        |     
+        script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js')
+        |       
+        script(src='/javascripts/index.js')
+      // /form
